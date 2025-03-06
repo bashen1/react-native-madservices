@@ -16,23 +16,12 @@ pod install
 
 ```javascript
 /**
- * 是否支持 AdServices 调用
- * iOS only
- */
-static isSupportAdServices(): Promise<boolean>;
-
-/**
  * 获取自归因数据 Token(AdServices)
  * 此token需要到 https://api-adservices.apple.com/api/v1/ 换取归因数据
+ * code: 0 未知错误或系统版本不支持，1 成功，-1 Apple接口返回错误
  * iOS only
  */
 static getAttributionToken(): Promise<IGetAttributionToken>
-
-/**
- * 获取自归因数据 (iAd)
- * iOS only
- */
-static getAttributionData(): Promise<IGetAttributionData>
 ```
 
 ## License
