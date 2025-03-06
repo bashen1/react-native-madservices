@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/bashen1/react-native-madservices.git", :tag => "#{s.version}" }
 
   s.source_files = "ios/**/*.{h,m,mm,swift}"
-  s.frameworks = "AdServices", "AdSupport", "iAd"
-  
+  s.frameworks = "AdServices", "AdSupport"
+
   s.dependency "React-Core"
 end
