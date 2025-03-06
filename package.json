@@ -1,6 +1,6 @@
 {
   "name": "react-native-madservices",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "iOS AdServices and iAd",
   "main": "index.js",
   "scripts": {
